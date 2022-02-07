@@ -1,5 +1,23 @@
 {
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"prettier.trailingComma": "none",
+	"prettier.useTabs": true,
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"editor.tabSize": 2,
+	"cSpell.words": ["semibold"],
+	"prettier.jsxSingleQuote": true,
+	"javascript.format.semicolons": "remove",
+	"javascript.preferences.quoteStyle": "single",
+	"javascript.referencesCodeLens.enabled": true,
+	"javascript.referencesCodeLens.showOnAllFunctions": true,
+	"typescript.format.semicolons": "remove",
+	"typescript.implementationsCodeLens.enabled": true,
+	"typescript.preferences.quoteStyle": "single",
+	"typescript.enablePromptUseWorkspaceTsdk": true
 }
